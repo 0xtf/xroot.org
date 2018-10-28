@@ -5,8 +5,11 @@ title: Contact
 
 # contact information
 
-## e-mail 
-I love OpenPGP, especially [GnuPG](https://gnupg.org/). That being said, e-mail and OpenPGP are hard to set up, and easy to fuck up in OPSEC. Feel free to use it, but if you're unsure of what you're doing, [Signal](https://whispersystems.org/) is an easier way to contact me.
+## Twitter
+Quick and easy. [DM's are open](https://twitter.com/0xtf). 
+
+## E-mail 
+I love OpenPGP, especially [GnuPG](https://gnupg.org/). That being said, e-mail and OpenPGP are hard to set up, and easy to fuck up in OPSEC. Feel free to use it, but if you're unsure of what you're doing, I'd prefer if you reach out via Twitter.
 
 I frequently change keys, so make sure you're using the one listed below.
 
