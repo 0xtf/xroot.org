@@ -16,7 +16,7 @@ I love OpenPGP, especially [GnuPG](https://gnupg.org/). That being said, e-mail 
 
 I frequently change keys, so make sure you're using the one listed below.
 
-You can find my current OpenPGP key [here](public-key.txt). It's probably in several key servers but I prefer to have it hosted here as well. If you choose to use key servers, please verify the entire fingerprint.
+You can find my current OpenPGP key [here](https://3coresec.com/keys/TF.txt). It's probably in several key servers but I prefer to have it hosted here as well. If you choose to use key servers, please verify the entire fingerprint.
 
 ![email address](/assets/img/mail.png "e-mail")
 
