@@ -5,11 +5,11 @@ title: Contact
 
 # contact information
 
-## Twitter
-Quick and easy. [DM's are open](https://twitter.com/0xtf). 
+## Matrix
+I am ([@0xtf](https://matrix.to/#/@0xtf:matrix.org)) usually on [Matrix](https://matrix.org), which I seriously recommend you check out.
 
-## Gitter
-I'm usually on [Gitter](https://gitter.im/0xtf) as well.
+## Twitter
+[DM's are open](https://twitter.com/0xtf). 
 
 ## E-mail 
 I love OpenPGP, especially [GnuPG](https://gnupg.org/). That being said, e-mail and OpenPGP are hard to set up, and easy to fuck up in OPSEC. Feel free to use it, but if you're unsure of what you're doing, I'd prefer if you reach out via Twitter.
