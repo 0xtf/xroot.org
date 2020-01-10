@@ -5,9 +5,6 @@ title: Contact
 
 # contact information
 
-## Matrix
-I am ([@0xtf](https://matrix.to/#/@0xtf:matrix.org)) usually on [Matrix](https://matrix.org), which I seriously recommend you check out.
-
 ## Twitter
 [DM's are open](https://twitter.com/0xtf). 
 
