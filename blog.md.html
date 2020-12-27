@@ -39,7 +39,7 @@ Before I address the technical inconsistencies of this quote, let's establish a 
 
 NIDS, contrary to its explanation in Wikipedia and the quoted article, does not require to be placed in strategic places in the network. For years all the deployments of NIDS I've performed where done through the usage of traffic mirroring, either natively by the switching equipment or through the usage of network TAPs.
 
-While this requirement was in fact in place during the NIDS early days of coexistence with AWS, the release of the VPC Traffic Mirroring capability finally put an end to it and brought all sorts of different possibilities. The requirements of the old days of NSM in AWS and the advantages of VPC Traffic Mirroring were discussed in [my talk in Suricon 2019].(https://www.youtube.com/watch?v=Bjm5C1VEdOc)
+While this requirement was in fact in place during the NIDS early days of coexistence with AWS, the release of the VPC Traffic Mirroring capability finally put an end to it and brought all sorts of different possibilities. The requirements of the old days of NSM in AWS and the advantages of VPC Traffic Mirroring were discussed in [my talk in Suricon 2019](https://www.youtube.com/watch?v=Bjm5C1VEdOc).
 
 3CORESec developed, to make use of those capabilities, and as an example, the 3CS [Mirror Toolkit](https://github.com/3CORESec/aws-mirror-toolkit), which among other things completely automates the management of these sessions with [3CS AutoMirror](https://github.com/3CORESec/AWS-AutoMirror) as well as the compliance (are mirror sessions being created as they should) aspects of it, through the usage of  our [AWS Config rule](https://github.com/3CORESec/AWS-Config-MirrorSession) (3CS AWS Config - Mirror Session).
 
