@@ -1,19 +1,10 @@
-<meta charset="utf-8" emacsmode="-*- markdown -*-"> <link rel="stylesheet" href="https://casual-effects.com/markdeep/latest/journal.css?">
+---
+title: "AWS Guardduty vs IDS"
+date: 2020-09-07T13:52:18+01:00
+draft: false
+---
 
-                                                           **xroot.org - Tiago's blog**
-                                           For when [280 characters](https://twitter.com/0xtf) is not enough
-
-
-Welcome to my personal homepage. **xroot.org** has been around since 2006 and it now [lives](https://github.com/0xtf/xroot.org) as a simple weblog running with [Markdeep](http://casual-effects.com/markdeep/), which I think is really cool and you should definitely check it out.
-
-If you need to reach out to me you can use Twitter ([@0xtf](https://twitter.com/0xtf)) or e-mail me at the same handle **@3coresec.com**.
-
-
-
-2020-09-07: AWS GuardDuty vs IDS
-=================================
-
-I recently came across an AWS Blog post titled "[New third-party test compares Amazon GuardDuty to network intrusion detection systems](https://aws.amazon.com/blogs/security/new-third-party-test-compares-amazon-guardduty-to-network-intrusion-detection-systems/)" where the author links to a [white paper](https://d1.awsstatic.com/certifications/foregenix_amazon_guardduty_security_review_07-2020.pdf) written by, as the title suggest, a third party. 
+I recently came across an AWS Blog post titled [New third-party test compares Amazon GuardDuty to network intrusion detection systems](https://aws.amazon.com/blogs/security/new-third-party-test-compares-amazon-guardduty-to-network-intrusion-detection-systems/) where the author links to a [white paper](https://d1.awsstatic.com/certifications/foregenix_amazon_guardduty_security_review_07-2020.pdf) written by, as the title suggest, a third party.
 
 The intent of their article is to provide an unbiased analyses of the capabilities of AWS GuardDuty when compared with "other" network intrusion detection systems. I do not, however, believe this objective was reached, and I want to highlight a few points about it in this blog post.
 
@@ -22,8 +13,8 @@ Before going forward I believe it's important to get a few things straight, in l
 - I work at [3CORESec](https://3coresec.com), a company that develops MDR solutions for AWS
 - We started 3CORESec exactly to address a few issues that are discussed in the blog post as well as the white paper
 - Choose whatever works best for you, but always take a supplier and its independent testing with a grain of salt
--  I'm a strong believer that network security monitoring is one of the most powerful aspects of a mature information security program
-  - I went on a bit of [rant on Twitter](https://twitter.com/0xtf/status/1145913147603259392) once about it
+- I'm a strong believer that network security monitoring is one of the most powerful aspects of a mature information security program
+- I went on a bit of [rant on Twitter](https://twitter.com/0xtf/status/1145913147603259392) once about it
 
 I would also like to mention that it is not my intent to persuade users in choosing one technology/product or the other. I don't believe the analyses is completely unbiased or fair, and as I previously mentioned, I would like to express my personal opinion on what I consider those faults to be.
 
@@ -41,7 +32,7 @@ NIDS, contrary to its explanation in Wikipedia and the quoted article, does not 
 
 While this requirement was in fact in place during the NIDS early days of coexistence with AWS, the release of the VPC Traffic Mirroring capability finally put an end to it and brought all sorts of different possibilities. The requirements of the old days of NSM in AWS and the advantages of VPC Traffic Mirroring were discussed in [my talk in Suricon 2019](https://www.youtube.com/watch?v=Bjm5C1VEdOc).
 
-3CORESec developed, to make use of those capabilities, and as an example, the 3CS [Mirror Toolkit](https://github.com/3CORESec/aws-mirror-toolkit), which among other things completely automates the management of these sessions with [3CS AutoMirror](https://github.com/3CORESec/AWS-AutoMirror) as well as the compliance (are mirror sessions being created as they should) aspects of it, through the usage of  our [AWS Config rule](https://github.com/3CORESec/AWS-Config-MirrorSession) (3CS AWS Config - Mirror Session).
+3CORESec developed, to make use of those capabilities, and as an example, the 3CS [Mirror Toolkit](https://github.com/3CORESec/aws-mirror-toolkit), which among other things completely automates the management of these sessions with [3CS AutoMirror](https://github.com/3CORESec/AWS-AutoMirror) as well as the compliance (are mirror sessions being created as they should) aspects of it, through the usage of our [AWS Config rule](https://github.com/3CORESec/AWS-Config-MirrorSession) (3CS AWS Config - Mirror Session).
 
 Continuing our breakdown of the blog post, the author wrote:
 
@@ -59,7 +50,7 @@ While it can be very easy to deploy Suricata it will undoubtedly be hard to do i
 Another reason we developed, and priced, our Suricata rule management platform as we did (read: [It has landed: Lawmaker is now available](https://blog.3coresec.com/2020/08/it-has-landed-lawmaker-is-now-available.html) and other [Lawmaker-tagged posts](https://blog.3coresec.com/search/label/Lawmaker)) was to help people and organizations facing this same problem. [Lawmaker](https://lawmaker.cloud/) is not, however, the only solution to this problem, as many users have been managing rules and rulesets in NIDS way before we even though about Lawmaker.
 
 > AWS asked Foregenix to conduct a test that would compare GuardDuty to market-leading IDS to help answer this question for us. AWS didn’t specify any specific attacks or architecture to be implemented within their test. It was left up to the independent tester to determine both the threat space covered by market-leading IDS and how to construct a test for determining the effectiveness of threat detection capabilities of GuardDuty and traditional IDS solutions which included open-source and commercial IDS.
-> -- <cite>Referenced blog post</cite>w
+> -- <cite>Referenced blog post</cite>
 
 Let's focus on a quote from the next paragraph before moving on to the whitepaper:
 
@@ -95,39 +86,39 @@ I'm not going to go over each individual finding, but I believe this part of the
 
 ![](imgs/blog-pyramid-pain.jpeg)
 
-Looking at the Appendix where the tools are listed I have to admit I'm a bit confused on why they were chosen. Nevertheless, that's what we're working with. 
+Looking at the Appendix where the tools are listed I have to admit I'm a bit confused on why they were chosen. Nevertheless, that's what we're working with.
 
-I thought about taking each of them and running them against a proper threat information ruleset and Suricata, but I guess it goes without saying that detection for most of them is covered by [ET Open](https://rules.emergingthreats.net/open) just by looking at which tools were chosen. 
+I thought about taking each of them and running them against a proper threat information ruleset and Suricata, but I guess it goes without saying that detection for most of them is covered by [ET Open](https://rules.emergingthreats.net/open) just by looking at which tools were chosen.
 
 The same, however, cannot be said for a simple [testmynids.org](http://testmynids.org/) run on an AWS EC2 instance on an AWS GuardDuty-enabled account, as nothing comes up on AWS GuardDuty from those tests. Not even the Tor Project connections, which leads me to believe that AWS GD has some sort of blacklist in ingress traffic, and not egress. To further add to that point, and since so many people classify the usage of Tor as something malicious or as being part of a bigger attack or C2, I think it's safe to say that I would much rather have information that my EC2 instance is talking to the Tor network than knowing someone using Tor is brute-forcing an SSH server that only has keyfile login enabled.
 
 What "complex attack playbooks" actually means is unclear, but if the Appendix of tools used is anything to judge these attackers, I think we'll be OK.
 
-The white paper also includes a list of threat "intelligence" feeds, and I have to admit I'm surprised not seeing Emerging Threats Open (at least) in that list. It is not clear to me where they were utilized, though. 
+The white paper also includes a list of threat "intelligence" feeds, and I have to admit I'm surprised not seeing Emerging Threats Open (at least) in that list. It is not clear to me where they were utilized, though.
 
-Can it be because they were using only IP blacklists to simulate GuardDuty's capabilities (of [only accepting IP lists](https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_upload-lists.html))? If that's true, and let's say that these were loaded in both the SIEM (for comparison on post-processing) or in the NIDS sensors (for runtime detection), both of these approaches are unfair and they should clearly indicate that the NIDS engines were not being used to their full capacity (not even a fraction of it, in my opinion). 
+Can it be because they were using only IP blacklists to simulate GuardDuty's capabilities (of [only accepting IP lists](https://docs.aws.amazon.com/guardduty/latest/ug/guardduty_upload-lists.html))? If that's true, and let's say that these were loaded in both the SIEM (for comparison on post-processing) or in the NIDS sensors (for runtime detection), both of these approaches are unfair and they should clearly indicate that the NIDS engines were not being used to their full capacity (not even a fraction of it, in my opinion).
 
 > This is not to suggest other solutions do not have significant or similar threat detection capabilities, however achieving comparable results would require additional customisation effort.
 > -- <cite>Referenced whitepaper</cite>
 
-Well, that's a tricky statement. Wouldn't this invalidate many of the findings of this white paper? Without knowing anything about how these systems were configured and which software was running on them, it's completely impossible to understand if they were in fact capable of doing so and the tester, for whatever reason, didn't properly configured them. 
+Well, that's a tricky statement. Wouldn't this invalidate many of the findings of this white paper? Without knowing anything about how these systems were configured and which software was running on them, it's completely impossible to understand if they were in fact capable of doing so and the tester, for whatever reason, didn't properly configured them.
 
 If I use the example of running Suricata and testing it with [testmynids.org](http://testmynids.org/) I know for a fact that it has superior detection capabilities, but without knowing what was used (in the test) and how, and based solely on the experience of running and comparing network-based detections on AWS GD with other NIDS, I would go as far as saying that a NIDS with a proper threat information feed and the NSM platforms I know (Zeek, Suricata) have in fact a far superior detection capability when compared with AWS GD.
 
-What those "customizations" they are referring to might be, is, again, unclear. 
+What those "customizations" they are referring to might be, is, again, unclear.
 
 > From an optimal cyber security standpoint, in order to achieve the highest possible threat detection rate, Foregenix believes AWS customers should leverage the best of both worlds: deploy a Host-based IDS for protecting the instances from the “inside”, and GuardDuty to protect the surrounding “cloud” as well as the host’s external environmental behaviour. Testing demonstrated that such a configuration would provide the most effective cyber security alternative for an AWS Cloud environment running both EC2 instances and serverless infrastructure.
 > -- <cite>Referenced whitepaper</cite>
 
-I'm not a fan of Host-based IDS, and the usage of this term in the conclusion only leaves me more confused on what it is that they were testing. If we focus on the network IDS, I disagree with this quote. 
+I'm not a fan of Host-based IDS, and the usage of this term in the conclusion only leaves me more confused on what it is that they were testing. If we focus on the network IDS, I disagree with this quote.
 
 If the goal is to keep it simple, obviously use AWS GD. The problem is that at this point of the report we are no longer taking ease of use into account, as the quote talks about an "optimal" state, and Host IDS+AWS GD is far from an optimal standpoint.
 
-While I would love if AWS Lambda's ENI's allowed their usage as a source in VPC Mirroring, proper NIDS is still miles ahead of AWS GD, and what we lose by not getting insight into serverless is not comparable to what we will gain in terms of visibility for EC2 (see my Twitter rant referenced above, which is just as true in large Enterprise AWS environment as old-school physical ones). The only scenario in which NSM or NIDS would not add much value would be in "cloud native" environment where EC2's are not being used, which is not the case for the majority of enterprise deployments (regardless of how cloud-aware they might be). 
+While I would love if AWS Lambda's ENI's allowed their usage as a source in VPC Mirroring, proper NIDS is still miles ahead of AWS GD, and what we lose by not getting insight into serverless is not comparable to what we will gain in terms of visibility for EC2 (see my Twitter rant referenced above, which is just as true in large Enterprise AWS environment as old-school physical ones). The only scenario in which NSM or NIDS would not add much value would be in "cloud native" environment where EC2's are not being used, which is not the case for the majority of enterprise deployments (regardless of how cloud-aware they might be).
 
 **Conclusion**
 
-As I mentioned several times throughout this post, I'm not comparing the ease of deployment of AWS GuardDuty to the deployment and maintenance it takes to run a full-blown Network Security Monitoring (including NIDS) platform. I do, however, would like to see a better testing methodology and especially one that isn't based mostly on ease of use. 
+As I mentioned several times throughout this post, I'm not comparing the ease of deployment of AWS GuardDuty to the deployment and maintenance it takes to run a full-blown Network Security Monitoring (including NIDS) platform. I do, however, would like to see a better testing methodology and especially one that isn't based mostly on ease of use.
 
 Is it unrealistic to expect, and following the white paper diagrams, that a company that has an internal/self-managed SIEM (or has it been deployed with the old "SIEM will fix everything" mindset?) also has the knowledge to configure Suricata+3CS Mirror Toolkit (and/or Zeek)?
 
@@ -139,33 +130,3 @@ One last technical thing, and I'll be done. Promise.
 > -- <cite>Referenced whitepaper</cite>
 
 Did you know that [3CS AutoMirror](https://github.com/3CORESec/AWS-AutoMirror) will take care of all of this for you? And guess what: You can install it with a [single click](https://blog.3coresec.com/2020/04/automirror-100.html) and it's OPEN SOURCE!
-
-2018-11-28: Dualcomm ETAP-2003
-==============================
-
-The Dualcomm ETAP-2003 is a pretty nifty little device. Because I couldn't find any images of them before I purchased mine, I thought I'd share a few photos I took:
-
-![](imgs/etap-2003/IMG_7745.jpg) ![](imgs/etap-2003/IMG_7746.jpg)
-
-![](imgs/etap-2003/IMG_7747.jpg) ![](imgs/etap-2003/IMG_7749.jpg)
-
-![](imgs/etap-2003/IMG_7750.jpg) ![](imgs/etap-2003/IMG_7751.jpg)
-
-![](imgs/etap-2003/IMG_7752.jpg)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- This is the end. Go back! -->
-<style class="fallback">body{visibility:hidden}</style><script>markdeepOptions={tocStyle:'long'};</script>
-<!-- Markdeep: --><script src="https://casual-effects.com/markdeep/latest/markdeep.min.js?" charset="utf-8"></script>
