@@ -1,3 +1,3 @@
-# xroot.org
+# Hugo Directory
 
-This repository holds the content of xroot.org. Not much else worth browsing here.
+I'm aware that this might be a bit redundant, but this folder holds the Hugo source files. 
