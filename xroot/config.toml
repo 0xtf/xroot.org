@@ -1,0 +1,72 @@
+baseURL = "https://xroot.org/"
+languageCode = "en-us"
+title = "Tiago's 🏡"
+theme = "ink"
+paginate = 5
+publishDir = "../"
+
+pygmentsstyle = "vs"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[params]
+	subtitle = "xroot.org - *EST 2006*"
+
+	# Optional 64x64 avatar image.
+	avatar = ""
+
+	featherIconsCDN = true
+
+	mode = "auto" # "dark" or "auto"
+	# customCSS = "css/custom.css"  # Custom CSS applied to default styles.
+	# customDarkCSS = "css/custom-dark.css"  # Custom styles applied to dark mode css.
+	# customJS = ["js/custom.js", "js/custom1.js"]  # Custom JS scripts.
+
+# Nav.
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 2
+
+[[menu.main]]
+name = "Contact"
+url = "/contact"
+weight = 3
+
+[[menu.main]]
+name = "3CORESec"
+url = "/3coresec"
+weight = 4
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 5
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 6
+
+[[params.social]]
+name = "Github"
+icon = "github"
+url = "https://github.com/3CORESec"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/3CORESec"
+
+[[params.social]]
+name = "RSS"
+icon = "rss"
+url = "/index.xml"
+
+[taxonomies]
+   tag = "tags"

@@ -6,16 +6,7 @@
     <description>Recent content in Posts on Tiago&#39;s 🏡</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Aug 2021 11:58:55 +0100</lastBuildDate><atom:link href="https://xroot.org/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Another Xroot Change</title>
-      <link>https://xroot.org/posts/another-xroot-change/</link>
-      <pubDate>Wed, 25 Aug 2021 11:58:55 +0100</pubDate>
-      
-      <guid>https://xroot.org/posts/another-xroot-change/</guid>
-      <description>Yet another change to xroot.org! Let&amp;rsquo;s go!</description>
-    </item>
-    
+    <lastBuildDate>Mon, 07 Sep 2020 13:52:18 +0100</lastBuildDate><atom:link href="https://xroot.org/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AWS Guardduty vs IDS</title>
       <link>https://xroot.org/posts/guardduty-vs-ids/</link>
