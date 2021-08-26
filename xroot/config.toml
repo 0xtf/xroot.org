@@ -39,11 +39,6 @@ url = "/contact"
 weight = 3
 
 [[menu.main]]
-name = "3CORESec"
-url = "/3coresec"
-weight = 4
-
-[[menu.main]]
 name = "All posts"
 url = "/posts"
 weight = 5
