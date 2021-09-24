@@ -1,6 +1,7 @@
 ---
 title: "Dualcomm ETAP 2003"
 date: 2018-11-28T13:55:17+01:00
+tags: [nsm,hardware,network tap]
 draft: false
 ---
 
