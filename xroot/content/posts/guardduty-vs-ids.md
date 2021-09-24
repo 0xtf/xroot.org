@@ -1,6 +1,7 @@
 ---
 title: "AWS Guardduty vs IDS"
 date: 2020-09-07T13:52:18+01:00
+tags: [nids,guardduty,aws]
 draft: false
 ---
 

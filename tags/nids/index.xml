@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nids on Tiago&#39;s 🏡</title>
+    <link>https://xroot.org/tags/nids/</link>
+    <description>Recent content in nids on Tiago&#39;s 🏡</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 07 Sep 2020 13:52:18 +0100</lastBuildDate><atom:link href="https://xroot.org/tags/nids/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AWS Guardduty vs IDS</title>
+      <link>https://xroot.org/posts/guardduty-vs-ids/</link>
+      <pubDate>Mon, 07 Sep 2020 13:52:18 +0100</pubDate>
+      
+      <guid>https://xroot.org/posts/guardduty-vs-ids/</guid>
+      <description>I recently came across an AWS Blog post titled New third-party test compares Amazon GuardDuty to network intrusion detection systems where the author links to a white paper written by, as the title suggest, a third party.
+The intent of their article is to provide an unbiased analyses of the capabilities of AWS GuardDuty when compared with &amp;ldquo;other&amp;rdquo; network intrusion detection systems. I do not, however, believe this objective was reached, and I want to highlight a few points about it in this blog post.</description>
+    </item>
+    
+  </channel>
+</rss>
