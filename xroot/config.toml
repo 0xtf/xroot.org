@@ -39,14 +39,9 @@ url = "/contact"
 weight = 3
 
 [[menu.main]]
-name = "All posts"
-url = "/posts"
-weight = 5
-
-[[menu.main]]
 name = "Tags"
 url = "/tags"
-weight = 6
+weight = 4
 
 [[params.social]]
 name = "Github"
