@@ -10,7 +10,7 @@ pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
 [params]
-	subtitle = "xroot.org - *EST 2006*"
+	subtitle = "xroot.org - EST 2006"
 
 	# Optional 64x64 avatar image.
 	avatar = ""
