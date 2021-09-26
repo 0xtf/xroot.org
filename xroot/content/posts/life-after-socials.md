@@ -1,6 +1,6 @@
 ---
 title: "Social Networks 🚫 Tools & Productivity ✅"
-date: 2021-07-28T13:33:12+01:00
+date: 2021-08-28T13:33:12+01:00
 tags: [twitter,social,tools,workflow]
 draft: false
 ---
