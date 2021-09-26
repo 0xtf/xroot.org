@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>movies on Tiago&#39;s 🏡</title>
+    <link>https://xroot.org/tags/movies/</link>
+    <description>Recent content in movies on Tiago&#39;s 🏡</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 Sep 2021 22:55:17 +0100</lastBuildDate><atom:link href="https://xroot.org/tags/movies/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Movie Recommendation 📹 The Report</title>
+      <link>https://xroot.org/posts/movie-the-report/</link>
+      <pubDate>Sat, 25 Sep 2021 22:55:17 +0100</pubDate>
+      
+      <guid>https://xroot.org/posts/movie-the-report/</guid>
+      <description>The Report - 2019
+  </description>
+    </item>
+    
+  </channel>
+</rss>

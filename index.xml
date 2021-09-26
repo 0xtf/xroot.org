@@ -6,7 +6,28 @@
     <description>Recent content on Tiago&#39;s 🏡</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Sep 2020 13:52:18 +0100</lastBuildDate><atom:link href="https://xroot.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Sep 2021 22:55:17 +0100</lastBuildDate><atom:link href="https://xroot.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Movie Recommendation 📹 The Report</title>
+      <link>https://xroot.org/posts/movie-the-report/</link>
+      <pubDate>Sat, 25 Sep 2021 22:55:17 +0100</pubDate>
+      
+      <guid>https://xroot.org/posts/movie-the-report/</guid>
+      <description>The Report - 2019
+  </description>
+    </item>
+    
+    <item>
+      <title>Social Networks 🚫 Tools &amp; Productivity ✅</title>
+      <link>https://xroot.org/posts/life-after-socials/</link>
+      <pubDate>Wed, 28 Jul 2021 13:33:12 +0100</pubDate>
+      
+      <guid>https://xroot.org/posts/life-after-socials/</guid>
+      <description>Recently I decided it was time to not only a break but instead a full departure from social networks. This is a process that started years ago when I first got rid of other services but it was only completed when the last standing social network profile came to an end:
+The time has come for my last social network presence (Twitter) to come to an end.
+Stay safe out there and feel free to reach out to me at tiago @3CORESec ✉️</description>
+    </item>
+    
     <item>
       <title>AWS Guardduty vs IDS</title>
       <link>https://xroot.org/posts/guardduty-vs-ids/</link>
@@ -33,7 +54,8 @@ The intent of their article is to provide an unbiased analyses of the capabiliti
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://xroot.org/3coresec/</guid>
-      <description>Soon!</description>
+      <description>3CORESec, which got its name from the &amp;ldquo;three cores&amp;rdquo; that go into our business goals (truth, trust &amp;amp; transparency) is a boutique information security company dedicated to creating managed detection security platforms, products and services.
+Officially opened in 2019, 3CORESec, or 3CS for short, started with the idea of making robust information security products more easily accessible as well as developing these products with real-world, enterprise-ready capabilities. With so many products and services built under a lab environment, it&amp;rsquo;s a shame how many good ideas are lost when they face the demanding requirements of enterprises.</description>
     </item>
     
     <item>
@@ -44,7 +66,8 @@ The intent of their article is to provide an unbiased analyses of the capabiliti
       <guid>https://xroot.org/about/</guid>
       <description>Hi there, welcome! 👋🏽
 xroot.org is the personal homepage of Tiago Faria (that&amp;rsquo;s me).
-I started the website back in 2006 to run a Wordpress blog and in its 15 years of existence I&amp;rsquo;ve changed content and purpose so many times it&amp;rsquo;s hard to keep track. For now I believe I settled with a workflow that serves my purposes, which is to have a simple blog and a place to call - online - home.</description>
+I started the website back in 2006 to run a Wordpress blog and in its 15 years of existence I&amp;rsquo;ve changed content and purpose so many times it&amp;rsquo;s hard to keep track. With no more presence in social networks, this will be the place I get to call online home.
+$ cat about.txt I have around 1000 hobbies even though I only get to put in practice a handful of them.</description>
     </item>
     
     <item>
@@ -53,7 +76,7 @@ I started the website back in 2006 to run a Wordpress blog and in its 15 years o
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://xroot.org/contact/</guid>
-      <description>Best way to reach me is by using my first name at 3coresec.com.</description>
+      <description>Best way to reach me is by using my first name @ the domain you&amp;rsquo;re visiting now.</description>
     </item>
     
   </channel>

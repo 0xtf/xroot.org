@@ -6,7 +6,28 @@
     <description>Recent content in Posts on Tiago&#39;s 🏡</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Sep 2020 13:52:18 +0100</lastBuildDate><atom:link href="https://xroot.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Sep 2021 22:55:17 +0100</lastBuildDate><atom:link href="https://xroot.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Movie Recommendation 📹 The Report</title>
+      <link>https://xroot.org/posts/movie-the-report/</link>
+      <pubDate>Sat, 25 Sep 2021 22:55:17 +0100</pubDate>
+      
+      <guid>https://xroot.org/posts/movie-the-report/</guid>
+      <description>The Report - 2019
+  </description>
+    </item>
+    
+    <item>
+      <title>Social Networks 🚫 Tools &amp; Productivity ✅</title>
+      <link>https://xroot.org/posts/life-after-socials/</link>
+      <pubDate>Wed, 28 Jul 2021 13:33:12 +0100</pubDate>
+      
+      <guid>https://xroot.org/posts/life-after-socials/</guid>
+      <description>Recently I decided it was time to not only a break but instead a full departure from social networks. This is a process that started years ago when I first got rid of other services but it was only completed when the last standing social network profile came to an end:
+The time has come for my last social network presence (Twitter) to come to an end.
+Stay safe out there and feel free to reach out to me at tiago @3CORESec ✉️</description>
+    </item>
+    
     <item>
       <title>AWS Guardduty vs IDS</title>
       <link>https://xroot.org/posts/guardduty-vs-ids/</link>
