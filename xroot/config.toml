@@ -2,7 +2,7 @@ baseURL = "https://xroot.org/"
 languageCode = "en-us"
 title = "Tiago's 🏡"
 theme = "ink"
-paginate = 5
+paginate = 10
 publishDir = "../"
 
 pygmentsstyle = "vs"
@@ -60,3 +60,4 @@ url = "/index.xml"
 
 [taxonomies]
    tag = "tags"
+
