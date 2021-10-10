@@ -1,7 +1,7 @@
 ---
 title: "Movie Recommendation 📹 Solace"
 date: 2021-09-26T22:06:17+01:00
-tags: [movies]
+tags: [movies,watch]
 draft: false
 ---
 

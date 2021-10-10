@@ -15,7 +15,7 @@ I have around 1000 hobbies even though I only get to put in practice a handful o
 
 {{< figure src="/img/2019-10-Estoril.JPG" >}}
 
-When I'm not racing, obsessing over my book collection or playing [Gears of War](https://gearsofwar.com/), I'll be having fun with my family and *- trying to -* stop my 2 kids from fighting. 
+When I'm not racing, [watching](/tags/watch/) movies or series, obsessing over my book collection or playing [Gears of War](https://gearsofwar.com/), I'll be having fun with my family and *- trying to -* stop my 2 kids from fighting. 
 
 {{< figure src="/img/godfather-2nd.jpeg" >}}
 
