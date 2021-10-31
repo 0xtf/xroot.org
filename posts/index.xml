@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Tiago&#39;s 🏡</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Oct 2021 22:40:17 +0100</lastBuildDate><atom:link href="https://xroot.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Oct 2021 22:59:17 +0100</lastBuildDate><atom:link href="https://xroot.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tailscale - VPN done RIGHT!</title>
+      <link>https://xroot.org/posts/tailscale/</link>
+      <pubDate>Sat, 30 Oct 2021 22:59:17 +0100</pubDate>
+      
+      <guid>https://xroot.org/posts/tailscale/</guid>
+      <description>Recently I wrote about how I don’t feel confident using Canonical’s Landscape and how my particular use case, where Landscape was my only means of accessing certain servers after they were deployed, made for an interesting challenge on how to tackle this self imposed limitation while keeping our operational goals in place.
+When designing a solution to address connectivity to remote/edge computers obviously our good old VPN will be the first go-to tool.</description>
+    </item>
+    
     <item>
       <title>Explain the nonsense of the stock market with just two stocks 📉</title>
       <link>https://xroot.org/posts/market-aapl-estc/</link>
@@ -15,15 +25,6 @@
       <guid>https://xroot.org/posts/market-aapl-estc/</guid>
       <description>Much can be said about evaluations and how the market perceives a certain company. That being said, there is absolutely nothing that justifies or explains something like this:
  That’s it. That’s the post.</description>
-    </item>
-    
-    <item>
-      <title>Tailscale!</title>
-      <link>https://xroot.org/posts/tailscale/</link>
-      <pubDate>Wed, 27 Oct 2021 22:40:17 +0100</pubDate>
-      
-      <guid>https://xroot.org/posts/tailscale/</guid>
-      <description>Hook test. Another test.</description>
     </item>
     
     <item>

@@ -1,7 +1,7 @@
 ---
 title: "Tailscale - VPN done RIGHT!"
 date: 2021-10-30T22:59:17+01:00
-tags: [vpn,administration,security]
+tags: [vpn,sysadmin,security]
 draft: false
 ---
 

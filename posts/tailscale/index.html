@@ -2,21 +2,24 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Tailscale! - Tiago&#39;s 🏡</title><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta itemprop="name" content="Tailscale!">
-<meta itemprop="description" content="Hook test. Another test."><meta itemprop="datePublished" content="2021-10-27T22:40:17+01:00" />
-<meta itemprop="dateModified" content="2021-10-27T22:40:17+01:00" />
-<meta itemprop="wordCount" content="4">
-<meta itemprop="keywords" content="vpn,administration,security," /><meta property="og:title" content="Tailscale!" />
-<meta property="og:description" content="Hook test. Another test." />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Tailscale - VPN done RIGHT! - Tiago&#39;s 🏡</title><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta itemprop="name" content="Tailscale - VPN done RIGHT!">
+<meta itemprop="description" content="Recently I wrote about how I don’t feel confident using Canonical’s Landscape and how my particular use case, where Landscape was my only means of accessing certain servers after they were deployed, made for an interesting challenge on how to tackle this self imposed limitation while keeping our operational goals in place.
+When designing a solution to address connectivity to remote/edge computers obviously our good old VPN will be the first go-to tool."><meta itemprop="datePublished" content="2021-10-30T22:59:17+01:00" />
+<meta itemprop="dateModified" content="2021-10-30T22:59:17+01:00" />
+<meta itemprop="wordCount" content="710">
+<meta itemprop="keywords" content="vpn,administration,security," /><meta property="og:title" content="Tailscale - VPN done RIGHT!" />
+<meta property="og:description" content="Recently I wrote about how I don’t feel confident using Canonical’s Landscape and how my particular use case, where Landscape was my only means of accessing certain servers after they were deployed, made for an interesting challenge on how to tackle this self imposed limitation while keeping our operational goals in place.
+When designing a solution to address connectivity to remote/edge computers obviously our good old VPN will be the first go-to tool." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://xroot.org/posts/tailscale/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2021-10-27T22:40:17+01:00" />
-<meta property="article:modified_time" content="2021-10-27T22:40:17+01:00" />
+<meta property="article:published_time" content="2021-10-30T22:59:17+01:00" />
+<meta property="article:modified_time" content="2021-10-30T22:59:17+01:00" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Tailscale!"/>
-<meta name="twitter:description" content="Hook test. Another test."/>
+<meta name="twitter:title" content="Tailscale - VPN done RIGHT!"/>
+<meta name="twitter:description" content="Recently I wrote about how I don’t feel confident using Canonical’s Landscape and how my particular use case, where Landscape was my only means of accessing certain servers after they were deployed, made for an interesting challenge on how to tackle this self imposed limitation while keeping our operational goals in place.
+When designing a solution to address connectivity to remote/edge computers obviously our good old VPN will be the first go-to tool."/>
 <link href='https://fonts.googleapis.com/css?family=Playfair+Display:700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" media="screen" href="https://xroot.org/css/normalize.css" />
 	<link rel="stylesheet" type="text/css" media="screen" href="https://xroot.org/css/main.css" />
@@ -66,18 +69,60 @@
 				
 					<div class="meta">
 						<div class="date">
-							<span class="day">27</span>
+							<span class="day">30</span>
 							<span class="rest">Oct 2021</span>
 						</div>
 					</div>
 				
 				<div class="matter">
-					<h1 class="title">Tailscale!</h1>
+					<h1 class="title">Tailscale - VPN done RIGHT!</h1>
 				</div>
 			</div>
 					
 			<div class="markdown">
-				<p>Hook test. Another test.</p>
+				<p>Recently <a href="/posts/landscape-review/">I wrote about how I don’t feel confident using Canonical’s Landscape</a> and how my particular use case, where Landscape <strong>was</strong> my only means of accessing certain servers after they were deployed, made for an interesting challenge on how to tackle this <em>self imposed limitation</em> while keeping our operational goals in place.</p>
+<p>When designing a solution to address connectivity to remote/edge computers obviously our good old VPN will be the first go-to tool. Unfortunately VPNs, and specifically their requirements, were not something I ever felt good about imposing to our clients. Whether it’s a S2S VPN or a user-based VPN, it will undoubtedly create extra work within different teams for our clients (at a very least, compliance and operations).</p>
+<p>One of the benefits of the deployments <a href="/3CORESec">we</a> do of our <a href="https://3coresec.com/nta">appliances</a> is how little to no changes it requires in the client&rsquo;s network. The devices are often deployed without any access to the network under which they are installed and I would like to keep this same principle of least-privelege in the operational aspects of managing and supporting these devices.</p>
+<p><strong><a href="https://tailscale.com">Tailscale</a> to the rescue!</strong></p>
+<p>I don&rsquo;t know how I went for so long without bumping into Tailscale. In a way that’s beneficial though, as there’s a multitude of blog posts, reddit threads, guides and howtos that were written over its almost 2 years of existence. The abundence of write-ups on Tailscale, ironically, did little to aid in its deployment as Tailscale is - hands down - the most intuitive security product I’ve seen. From start to finish I was able to have Tailscale up and running in less than 5 minutes.</p>
+<p>I don’t recall the last time I ran into a security product that was able to balance user experience, functionality and security, the way the Tailscale team has done. And while there are some <a href="https://github.com/tailscale/tailscale/issues/539">issues</a> I’d like to see addressed, my experience with it has been nothing short of perfect.</p>
+<p>We&rsquo;ve since changed our workflow and deployment process to account for Tailscale. All the machines that are sent to remote deployments now have Tailscale installed and enrolled in our account. If for some reason our maintenance system fails - where the client is able to reverse-SSH into our support host - Tailscale is our safety net and, so far, has been able to save several trips to data-centers.</p>
+<p>While out-of-band accesses like IPMI should - theoretically - work, I’ve had mixed experiences. Similar to what I mentioned in the Landscape post I find it 10x worst to create a dependency on something that can’t live up to the expectations than not having that tool to begin with. With Tailscale I feel safe about creating that dependency.</p>
+<p>Another extremely useful aspect of Tailscale is how you can run your entire computing workloads (say for example in AWS) without having to worry about exposing assets to the Internet. While you could always limit access to instances via a multitude of ways - most common being IP filtering with Security Groups - it was always a PITA unless you’re accessing them from a handful of locations with static public IPs.</p>
+<p>With Tailscale you can easily deploy your EC2&rsquo;s without Internet access and save some money on NAT instances for private VPC subnet routing.</p>
+<p>Because the Tailscale team seems to magically guess everything I&rsquo;d like to do, there’s yet another feature that improved our workflows.</p>
+<p>With the Team plan of Tailscale, and more importantly with the <a href="https://tailscale.com/kb/1018/acls/">Network ACLs</a>, we have been able to make use of our GSuite directory to define RBACs groups and subsequently define ACLs that give particular groups, or users, access to the servers with the option of limiting per port, individual machine (name and IP) as well as machine groups.</p>
+<p>Here&rsquo;s an example where we define a group (<code>group:all</code>) that has access to all servers and a separate group (<code>group:detectionlab</code>) limited to a single machine using solely RDP:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">{
+  &#34;acls&#34;: [
+    {
+      &#34;action&#34;: &#34;accept&#34;,
+      &#34;users&#34;: [&#34;group:all&#34;],
+      &#34;ports&#34;: [
+        &#34;*:*&#34;,
+      ],
+    },
+    {
+      &#34;action&#34;: &#34;accept&#34;,
+      &#34;users&#34;: [&#34;group:detectionlab&#34;],
+      &#34;ports&#34;: [
+        &#34;x.x.x.x:3389&#34;,
+      ],
+    },
+  ],
+  &#34;groups&#34;: {
+    &#34;group:all&#34;: [
+      &#34;user-admin@3coresec.com&#34;,
+    ],
+    &#34;group:detectionlab&#34;: [
+      &#34;user1@3coresec.com&#34;,
+      &#34;user2@3coresec.com&#34;,
+    ],
+  },
+  &#34;disableIPv4&#34;: false,
+  &#34;randomizeClientPort&#34;: false,
+}
+</code></pre></div><p>If you haven’t yet tried it and you do any sort of remote access/VPN, I guarantee you you’re missing out.</p>
 
 			</div>
 
