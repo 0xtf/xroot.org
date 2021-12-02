@@ -5,7 +5,7 @@ tags: [xbox]
 draft: false
 ---
 
-We haven't always seen eye to eye Xbox, but today is your day.
+We have not always seen eye to eye Xbox, but today is your day.
 
 {{< figure src="/img/IMG_1179.jpeg" >}}
 
