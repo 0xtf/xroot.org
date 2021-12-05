@@ -2,16 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://xroot.org/posts/xbox-20/</loc>
-    <lastmod>2021-11-15T15:42:17+01:00</lastmod>
+    <loc>https://xroot.org/tags/cve/</loc>
+    <lastmod>2021-12-05T01:40:17+01:00</lastmod>
+  </url><url>
+    <loc>https://xroot.org/posts/manage-engine/</loc>
+    <lastmod>2021-12-05T01:40:17+01:00</lastmod>
   </url><url>
     <loc>https://xroot.org/posts/</loc>
-    <lastmod>2021-11-15T15:42:17+01:00</lastmod>
+    <lastmod>2021-12-05T01:40:17+01:00</lastmod>
+  </url><url>
+    <loc>https://xroot.org/tags/security/</loc>
+    <lastmod>2021-12-05T01:40:17+01:00</lastmod>
   </url><url>
     <loc>https://xroot.org/tags/</loc>
-    <lastmod>2021-11-15T15:42:17+01:00</lastmod>
+    <lastmod>2021-12-05T01:40:17+01:00</lastmod>
   </url><url>
     <loc>https://xroot.org/</loc>
+    <lastmod>2021-12-05T01:40:17+01:00</lastmod>
+  </url><url>
+    <loc>https://xroot.org/posts/xbox-20/</loc>
     <lastmod>2021-11-15T15:42:17+01:00</lastmod>
   </url><url>
     <loc>https://xroot.org/tags/xbox/</loc>
@@ -25,9 +34,6 @@
   </url><url>
     <loc>https://xroot.org/tags/watch/</loc>
     <lastmod>2021-11-07T23:22:52+01:00</lastmod>
-  </url><url>
-    <loc>https://xroot.org/tags/security/</loc>
-    <lastmod>2021-10-30T22:59:17+01:00</lastmod>
   </url><url>
     <loc>https://xroot.org/tags/sysadmin/</loc>
     <lastmod>2021-10-30T22:59:17+01:00</lastmod>
