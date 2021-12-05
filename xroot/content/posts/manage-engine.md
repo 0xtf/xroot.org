@@ -5,7 +5,7 @@ tags: [cve,security]
 draft: false
 ---
 
-Manage Engine, or Zoho - whatever they're going by these days - has been showing up in the news regarding critical vulnerabilities in their products, and how they being used by malicious actors. 
+Manage Engine, or Zoho - whatever they are going by these days - has been showing up in the news regarding critical vulnerabilities in their products, and how they being used by malicious actors. 
 
 I'm surprised Manage Engine is still in business in the first place. Their software is the definition of sausage software: you don't want to see how it's made.
 
