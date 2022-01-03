@@ -6,34 +6,7 @@
     <description>Recent content in Tags on Tiago&#39;s 🏡</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Jan 2022 13:55:17 +0100</lastBuildDate><atom:link href="https://xroot.org/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>hardware</title>
-      <link>https://xroot.org/tags/hardware/</link>
-      <pubDate>Mon, 03 Jan 2022 13:55:17 +0100</pubDate>
-      
-      <guid>https://xroot.org/tags/hardware/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>network</title>
-      <link>https://xroot.org/tags/network/</link>
-      <pubDate>Mon, 03 Jan 2022 13:55:17 +0100</pubDate>
-      
-      <guid>https://xroot.org/tags/network/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>nsm</title>
-      <link>https://xroot.org/tags/nsm/</link>
-      <pubDate>Mon, 03 Jan 2022 13:55:17 +0100</pubDate>
-      
-      <guid>https://xroot.org/tags/nsm/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Mon, 15 Nov 2021 15:42:17 +0100</lastBuildDate><atom:link href="https://xroot.org/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>xbox</title>
       <link>https://xroot.org/tags/xbox/</link>
@@ -211,6 +184,33 @@
       <pubDate>Mon, 07 Sep 2020 13:52:18 +0100</pubDate>
       
       <guid>https://xroot.org/tags/nids/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hardware</title>
+      <link>https://xroot.org/tags/hardware/</link>
+      <pubDate>Wed, 28 Nov 2018 13:55:17 +0100</pubDate>
+      
+      <guid>https://xroot.org/tags/hardware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>network</title>
+      <link>https://xroot.org/tags/network/</link>
+      <pubDate>Wed, 28 Nov 2018 13:55:17 +0100</pubDate>
+      
+      <guid>https://xroot.org/tags/network/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nsm</title>
+      <link>https://xroot.org/tags/nsm/</link>
+      <pubDate>Wed, 28 Nov 2018 13:55:17 +0100</pubDate>
+      
+      <guid>https://xroot.org/tags/nsm/</guid>
       <description></description>
     </item>
     
