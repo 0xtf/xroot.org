@@ -23,6 +23,7 @@ jobs:
         chmod +x hugo
         cd xroot
         ../hugo
+        cd ..
         rm README.md LICENSE hugo
     - name: Commit generated layer file to local repository
       run: |
