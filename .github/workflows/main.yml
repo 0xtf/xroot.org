@@ -1,0 +1,39 @@
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+name: Generate website
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  workflow:
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, 'ci skip')"
+    steps:
+    - uses: actions/checkout@v2
+    - name: Download Hugo and generate site
+      run: |
+        wget https://github.com/gohugoio/hugo/releases/download/v0.91.2/hugo_0.91.2_Linux-64bit.tar.gz
+        tar xzvf hugo_0.91.2_Linux-64bit.tar.gz
+        rm hugo_0.91.2_Linux-64bit.tar.gz
+        chmod +x hugo
+        cd xroot
+        ../hugo
+        rm README.md LICENSE hugo
+    - name: Commit generated layer file to local repository
+      run: |
+        git config --global user.name 'Github Actions';
+        git config --global user.email 'robot@noreply.github.com';
+        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/0xtf/xroot.org;
+        git add -f *;
+        if [ "`git diff --cached --numstat | wc -l`" != "0" ];
+          then
+            git commit -m "New version of the website built";
+            git push;
+          else
+            echo "No changes detected";
+        fi
