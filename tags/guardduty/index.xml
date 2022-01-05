@@ -6,16 +6,7 @@
     <description>Recent content in guardduty on Tiago&#39;s 🏡</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 05 Jan 2022 13:52:18 +0100</lastBuildDate><atom:link href="https://xroot.org/tags/guardduty/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>test</title>
-      <link>https://xroot.org/posts/test/</link>
-      <pubDate>Wed, 05 Jan 2022 13:52:18 +0100</pubDate>
-      
-      <guid>https://xroot.org/posts/test/</guid>
-      <description>test</description>
-    </item>
-    
+    <lastBuildDate>Mon, 07 Sep 2020 13:52:18 +0100</lastBuildDate><atom:link href="https://xroot.org/tags/guardduty/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AWS Guardduty vs IDS</title>
       <link>https://xroot.org/posts/guardduty-vs-ids/</link>
