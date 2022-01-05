@@ -30,6 +30,6 @@ jobs:
         git config --global user.name 'Github Actions';
         git config --global user.email 'robot@noreply.github.com';
         git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/0xtf/xroot.org;
-        git add -f *;
+        git add *
         git commit -m "New version of the website built";
         git push;
