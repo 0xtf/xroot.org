@@ -25,11 +25,12 @@ jobs:
         ../hugo
         cd ..
         rm README.md LICENSE hugo
+        ls -R .
     - name: Commit generated website to local repository
       run: |
-        git config --global user.name 'Github Actions';
-        git config --global user.email 'robot@noreply.github.com';
-        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/0xtf/xroot.org;
+        git config --global user.name 'Github Actions'
+        git config --global user.email 'robot@noreply.github.com'
+        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/0xtf/xroot.org
         git add *
-        git commit -m "New version of the website built";
-        git push;
+        git commit -m "New version of the website built"
+        git push
