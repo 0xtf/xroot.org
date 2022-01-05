@@ -2,16 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://xroot.org/posts/xbox-20/</loc>
-    <lastmod>2021-11-15T15:42:17+01:00</lastmod>
+    <loc>https://xroot.org/posts/idiot-saas-saml/</loc>
+    <lastmod>2022-01-05T22:40:17+01:00</lastmod>
   </url><url>
     <loc>https://xroot.org/posts/</loc>
-    <lastmod>2021-11-15T15:42:17+01:00</lastmod>
+    <lastmod>2022-01-05T22:40:17+01:00</lastmod>
+  </url><url>
+    <loc>https://xroot.org/tags/saas/</loc>
+    <lastmod>2022-01-05T22:40:17+01:00</lastmod>
+  </url><url>
+    <loc>https://xroot.org/tags/security/</loc>
+    <lastmod>2022-01-05T22:40:17+01:00</lastmod>
   </url><url>
     <loc>https://xroot.org/tags/</loc>
-    <lastmod>2021-11-15T15:42:17+01:00</lastmod>
+    <lastmod>2022-01-05T22:40:17+01:00</lastmod>
   </url><url>
     <loc>https://xroot.org/</loc>
+    <lastmod>2022-01-05T22:40:17+01:00</lastmod>
+  </url><url>
+    <loc>https://xroot.org/tags/aws/</loc>
+    <lastmod>2022-01-05T13:52:18+01:00</lastmod>
+  </url><url>
+    <loc>https://xroot.org/tags/guardduty/</loc>
+    <lastmod>2022-01-05T13:52:18+01:00</lastmod>
+  </url><url>
+    <loc>https://xroot.org/tags/nids/</loc>
+    <lastmod>2022-01-05T13:52:18+01:00</lastmod>
+  </url><url>
+    <loc>https://xroot.org/posts/test/</loc>
+    <lastmod>2022-01-05T13:52:18+01:00</lastmod>
+  </url><url>
+    <loc>https://xroot.org/posts/xbox-20/</loc>
     <lastmod>2021-11-15T15:42:17+01:00</lastmod>
   </url><url>
     <loc>https://xroot.org/tags/xbox/</loc>
@@ -25,9 +46,6 @@
   </url><url>
     <loc>https://xroot.org/tags/watch/</loc>
     <lastmod>2021-11-07T23:22:52+01:00</lastmod>
-  </url><url>
-    <loc>https://xroot.org/tags/security/</loc>
-    <lastmod>2021-10-30T22:59:17+01:00</lastmod>
   </url><url>
     <loc>https://xroot.org/tags/sysadmin/</loc>
     <lastmod>2021-10-30T22:59:17+01:00</lastmod>
@@ -62,9 +80,6 @@
     <loc>https://xroot.org/tags/linux/</loc>
     <lastmod>2021-10-07T16:49:17+01:00</lastmod>
   </url><url>
-    <loc>https://xroot.org/tags/saas/</loc>
-    <lastmod>2021-10-07T16:49:17+01:00</lastmod>
-  </url><url>
     <loc>https://xroot.org/tags/ubuntu/</loc>
     <lastmod>2021-10-07T16:49:17+01:00</lastmod>
   </url><url>
@@ -92,16 +107,7 @@
     <loc>https://xroot.org/tags/workflow/</loc>
     <lastmod>2021-08-28T13:33:12+01:00</lastmod>
   </url><url>
-    <loc>https://xroot.org/tags/aws/</loc>
-    <lastmod>2020-09-07T13:52:18+01:00</lastmod>
-  </url><url>
     <loc>https://xroot.org/posts/guardduty-vs-ids/</loc>
-    <lastmod>2020-09-07T13:52:18+01:00</lastmod>
-  </url><url>
-    <loc>https://xroot.org/tags/guardduty/</loc>
-    <lastmod>2020-09-07T13:52:18+01:00</lastmod>
-  </url><url>
-    <loc>https://xroot.org/tags/nids/</loc>
     <lastmod>2020-09-07T13:52:18+01:00</lastmod>
   </url><url>
     <loc>https://xroot.org/posts/dualcomm-etap-2003/</loc>
