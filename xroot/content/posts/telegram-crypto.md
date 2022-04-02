@@ -1,5 +1,5 @@
 ---
-title: "Telegram and "crypto" ..."
+title: "Telegram and crypto ..."
 date: 2022-04-02T23:43:17+01:00
 tags: [telegram,cryptocurrency]
 draft: false
