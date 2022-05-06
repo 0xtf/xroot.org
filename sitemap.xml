@@ -2,8 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://xroot.org/tags/hardware/</loc>
+    <lastmod>2022-05-06T14:55:17+01:00</lastmod>
+  </url><url>
+    <loc>https://xroot.org/tags/network/</loc>
+    <lastmod>2022-05-06T14:55:17+01:00</lastmod>
+  </url><url>
+    <loc>https://xroot.org/tags/nsm/</loc>
+    <lastmod>2022-05-06T14:55:17+01:00</lastmod>
+  </url><url>
     <loc>https://xroot.org/posts/</loc>
-    <lastmod>2022-04-22T18:30:17+01:00</lastmod>
+    <lastmod>2022-05-06T14:55:17+01:00</lastmod>
+  </url><url>
+    <loc>https://xroot.org/tags/</loc>
+    <lastmod>2022-05-06T14:55:17+01:00</lastmod>
+  </url><url>
+    <loc>https://xroot.org/</loc>
+    <lastmod>2022-05-06T14:55:17+01:00</lastmod>
+  </url><url>
+    <loc>https://xroot.org/posts/twitter-economics/</loc>
+    <lastmod>2022-05-06T14:55:17+01:00</lastmod>
   </url><url>
     <loc>https://xroot.org/tags/saas/</loc>
     <lastmod>2022-04-22T18:30:17+01:00</lastmod>
@@ -12,12 +30,6 @@
     <lastmod>2022-04-22T18:30:17+01:00</lastmod>
   </url><url>
     <loc>https://xroot.org/posts/trash0/</loc>
-    <lastmod>2022-04-22T18:30:17+01:00</lastmod>
-  </url><url>
-    <loc>https://xroot.org/tags/</loc>
-    <lastmod>2022-04-22T18:30:17+01:00</lastmod>
-  </url><url>
-    <loc>https://xroot.org/</loc>
     <lastmod>2022-04-22T18:30:17+01:00</lastmod>
   </url><url>
     <loc>https://xroot.org/tags/cryptocurrency/</loc>
@@ -123,15 +135,6 @@
     <lastmod>2020-09-07T13:52:18+01:00</lastmod>
   </url><url>
     <loc>https://xroot.org/posts/dualcomm-etap-2003/</loc>
-    <lastmod>2018-11-28T13:55:17+01:00</lastmod>
-  </url><url>
-    <loc>https://xroot.org/tags/hardware/</loc>
-    <lastmod>2018-11-28T13:55:17+01:00</lastmod>
-  </url><url>
-    <loc>https://xroot.org/tags/network/</loc>
-    <lastmod>2018-11-28T13:55:17+01:00</lastmod>
-  </url><url>
-    <loc>https://xroot.org/tags/nsm/</loc>
     <lastmod>2018-11-28T13:55:17+01:00</lastmod>
   </url><url>
     <loc>https://xroot.org/3coresec/</loc>
