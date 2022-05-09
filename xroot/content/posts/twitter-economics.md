@@ -5,4 +5,4 @@ tags: [nsm,hardware,network]
 draft: false
 ---
 
-Opose *- genuinely -* fighting the ridiculously large bot/spam network. Ad/Marketing model: **charge for followers**. 
+Oppose *- genuinely -* fighting the ridiculously large bot/spam network. Ad/Marketing model: **charge for followers**. 
