@@ -2,22 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://xroot.org/tags/hardware/</loc>
-    <lastmod>2022-05-06T14:55:17+01:00</lastmod>
-  </url><url>
-    <loc>https://xroot.org/tags/network/</loc>
-    <lastmod>2022-05-06T14:55:17+01:00</lastmod>
-  </url><url>
-    <loc>https://xroot.org/tags/nsm/</loc>
-    <lastmod>2022-05-06T14:55:17+01:00</lastmod>
-  </url><url>
     <loc>https://xroot.org/posts/</loc>
+    <lastmod>2022-05-06T14:55:17+01:00</lastmod>
+  </url><url>
+    <loc>https://xroot.org/tags/social/</loc>
     <lastmod>2022-05-06T14:55:17+01:00</lastmod>
   </url><url>
     <loc>https://xroot.org/tags/</loc>
     <lastmod>2022-05-06T14:55:17+01:00</lastmod>
   </url><url>
     <loc>https://xroot.org/</loc>
+    <lastmod>2022-05-06T14:55:17+01:00</lastmod>
+  </url><url>
+    <loc>https://xroot.org/tags/twitter/</loc>
     <lastmod>2022-05-06T14:55:17+01:00</lastmod>
   </url><url>
     <loc>https://xroot.org/posts/twitter-economics/</loc>
@@ -107,16 +104,10 @@
     <loc>https://xroot.org/posts/movie-the-report/</loc>
     <lastmod>2021-09-25T22:55:17+01:00</lastmod>
   </url><url>
-    <loc>https://xroot.org/tags/social/</loc>
-    <lastmod>2021-08-28T13:33:12+01:00</lastmod>
-  </url><url>
     <loc>https://xroot.org/posts/life-after-socials/</loc>
     <lastmod>2021-08-28T13:33:12+01:00</lastmod>
   </url><url>
     <loc>https://xroot.org/tags/tools/</loc>
-    <lastmod>2021-08-28T13:33:12+01:00</lastmod>
-  </url><url>
-    <loc>https://xroot.org/tags/twitter/</loc>
     <lastmod>2021-08-28T13:33:12+01:00</lastmod>
   </url><url>
     <loc>https://xroot.org/tags/workflow/</loc>
@@ -135,6 +126,15 @@
     <lastmod>2020-09-07T13:52:18+01:00</lastmod>
   </url><url>
     <loc>https://xroot.org/posts/dualcomm-etap-2003/</loc>
+    <lastmod>2018-11-28T13:55:17+01:00</lastmod>
+  </url><url>
+    <loc>https://xroot.org/tags/hardware/</loc>
+    <lastmod>2018-11-28T13:55:17+01:00</lastmod>
+  </url><url>
+    <loc>https://xroot.org/tags/network/</loc>
+    <lastmod>2018-11-28T13:55:17+01:00</lastmod>
+  </url><url>
+    <loc>https://xroot.org/tags/nsm/</loc>
     <lastmod>2018-11-28T13:55:17+01:00</lastmod>
   </url><url>
     <loc>https://xroot.org/3coresec/</loc>
