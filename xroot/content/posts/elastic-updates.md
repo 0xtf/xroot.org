@@ -5,7 +5,7 @@ tags: [elastic,data]
 draft: false
 ---
 
-Someone once told me that one of the biggest problems with Elastic, and Elasticsearch, is how they frequently _"handle data as if it was a software"_, regarding updates and releases.
+Someone once told me that one of the biggest problems with Elastic, and Elasticsearch, is how they frequently _"handle data as if it was software"_, regarding updates and releases.
 
 {{< figure src="/img/elastic-ffs.png" >}}
 
