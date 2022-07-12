@@ -2,16 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://xroot.org/posts/</loc>
-    <lastmod>2022-05-06T14:55:17+01:00</lastmod>
+    <loc>https://xroot.org/tags/data/</loc>
+    <lastmod>2022-07-12T22:35:17+01:00</lastmod>
   </url><url>
-    <loc>https://xroot.org/tags/social/</loc>
-    <lastmod>2022-05-06T14:55:17+01:00</lastmod>
+    <loc>https://xroot.org/tags/elastic/</loc>
+    <lastmod>2022-07-12T22:35:17+01:00</lastmod>
+  </url><url>
+    <loc>https://xroot.org/posts/elastic-updates/</loc>
+    <lastmod>2022-07-12T22:35:17+01:00</lastmod>
+  </url><url>
+    <loc>https://xroot.org/posts/</loc>
+    <lastmod>2022-07-12T22:35:17+01:00</lastmod>
   </url><url>
     <loc>https://xroot.org/tags/</loc>
-    <lastmod>2022-05-06T14:55:17+01:00</lastmod>
+    <lastmod>2022-07-12T22:35:17+01:00</lastmod>
   </url><url>
     <loc>https://xroot.org/</loc>
+    <lastmod>2022-07-12T22:35:17+01:00</lastmod>
+  </url><url>
+    <loc>https://xroot.org/tags/social/</loc>
     <lastmod>2022-05-06T14:55:17+01:00</lastmod>
   </url><url>
     <loc>https://xroot.org/tags/twitter/</loc>
