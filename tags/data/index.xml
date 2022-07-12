@@ -13,7 +13,7 @@
       <pubDate>Tue, 12 Jul 2022 22:35:17 +0100</pubDate>
       
       <guid>https://xroot.org/posts/elastic-updates/</guid>
-      <description>Someone once told me that one of the biggest problems with Elastic, and Elasticsearch, is how they frequently &amp;ldquo;handle data as if it was a software&amp;rdquo;, regarding updates and releases.
+      <description>Someone once told me that one of the biggest problems with Elastic, and Elasticsearch, is how they frequently &amp;ldquo;handle data as if it was software&amp;rdquo;, regarding updates and releases.
  Something like this, apparently so non-intrusive (and especially within a minor release), was all it took to bring an entire workflow down.
 I&amp;rsquo;ve learned to move away from Elasticsearch for anything that is mission-critical, but I keep running into changes that make me question if people are just sitting on old versions of the software terrified of the idea of updating.</description>
     </item>
