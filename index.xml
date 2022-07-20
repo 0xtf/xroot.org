@@ -17,17 +17,6 @@
     </item>
     
     <item>
-      <title>Stay away from Trash0 (Auth0)</title>
-      <link>https://xroot.org/posts/trash0/</link>
-      <pubDate>Fri, 22 Apr 2022 18:30:17 +0100</pubDate>
-      
-      <guid>https://xroot.org/posts/trash0/</guid>
-      <description>I&amp;rsquo;ve seen my fair share of bad business decisions or cover ups when it comes to product functionalities, but Auth0 is undoubtedly the worst I&amp;rsquo;ve seen.
-If you’re considering investing your money in Auth0 (in some cases up to thousands of dollars), do yourself a favor and build your own identity server.
-It might seem overkill to spend all that development effort when at first glance Auth0 will do everything you need (even if everything is as simple as basic login + MFA).</description>
-    </item>
-    
-    <item>
       <title>Telegram and crypto ...</title>
       <link>https://xroot.org/posts/telegram-crypto/</link>
       <pubDate>Sat, 02 Apr 2022 23:43:17 +0100</pubDate>
