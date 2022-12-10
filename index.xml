@@ -17,50 +17,6 @@
     </item>
     
     <item>
-      <title>Telegram and crypto ...</title>
-      <link>https://xroot.org/posts/telegram-crypto/</link>
-      <pubDate>Sat, 02 Apr 2022 23:43:17 +0100</pubDate>
-      
-      <guid>https://xroot.org/posts/telegram-crypto/</guid>
-      <description>One of the biggest countersenses I&amp;rsquo;ve seen is crypto people promoting and using Telegram &amp;hellip;
-And no, it has nothing to do with MTProto.
-#CryptoMeansCryptography</description>
-    </item>
-    
-    <item>
-      <title>Series Recommendation 📺 Halt and Catch Fire</title>
-      <link>https://xroot.org/posts/series-hcf/</link>
-      <pubDate>Mon, 10 Jan 2022 06:59:17 +0100</pubDate>
-      
-      <guid>https://xroot.org/posts/series-hcf/</guid>
-      <description>Halt and Catch Fire - 2014
-  The first two seasons of this show are, simply put, amazing!
-I feel the show took quite a different direction in S03 (technology was no longer the subject pushing the entire show forward). There&amp;rsquo;s a shift towards personal relationships and technology became something that was part of the show, no longer the main subject of it.
-By the show finale it definitely felt darker and lost a lot of that feel good aspect that we would get out of watching the protagonists run a modem bank, buying second-hand servers or hearing a dial-up connection being established.</description>
-    </item>
-    
-    <item>
-      <title>If you&#39;re a SaaS provider charging a premium for SAML/SSO ...</title>
-      <link>https://xroot.org/posts/idiot-saas-saml/</link>
-      <pubDate>Wed, 05 Jan 2022 22:40:17 +0100</pubDate>
-      
-      <guid>https://xroot.org/posts/idiot-saas-saml/</guid>
-      <description>Fuck off!
-Putting authentication options at the highest possible plan is just an idiot move, no other way around it.</description>
-    </item>
-    
-    <item>
-      <title>Happy 20th birthday Xbox 💚</title>
-      <link>https://xroot.org/posts/xbox-20/</link>
-      <pubDate>Mon, 15 Nov 2021 15:42:17 +0100</pubDate>
-      
-      <guid>https://xroot.org/posts/xbox-20/</guid>
-      <description>We have not always seen eye to eye Xbox, but today is your day.
- Happy 20th birthday!
-Xbox&amp;rsquo;s 20th birthday is a good reminder of the many stories, sleepless nights, friendships and rage quits that I&amp;rsquo;ve been fortunate to experience. From the first time I saw Gears of War (and played for 18 hours straight) to learning about XBMC (that is still a reference in open-source to this day) and being able to have a multimedia player that I could FTP my content to.</description>
-    </item>
-    
-    <item>
       <title>Series Recommendation 📺 Glória</title>
       <link>https://xroot.org/posts/series-gloria/</link>
       <pubDate>Sun, 07 Nov 2021 23:22:52 +0100</pubDate>
@@ -91,26 +47,6 @@ When designing a solution to address connectivity to remote/edge computers obvio
     </item>
     
     <item>
-      <title>YT Recommendation 👨🏻‍💻 Dark Space</title>
-      <link>https://xroot.org/posts/yt-darkspace/</link>
-      <pubDate>Wed, 20 Oct 2021 21:18:17 +0100</pubDate>
-      
-      <guid>https://xroot.org/posts/yt-darkspace/</guid>
-      <description>Dark Space
-  </description>
-    </item>
-    
-    <item>
-      <title>Series Recommendation 📺 The The Billion Dollar Code</title>
-      <link>https://xroot.org/posts/series-billion-dollar-code/</link>
-      <pubDate>Thu, 07 Oct 2021 23:22:17 +0100</pubDate>
-      
-      <guid>https://xroot.org/posts/series-billion-dollar-code/</guid>
-      <description>The Billion Dollar Code - 2021
-  Being proud and willing to defend the Chaos Computer Club is just the cherry on top of the cake that is this amazing series!</description>
-    </item>
-    
-    <item>
       <title>Canonical Landscape Review</title>
       <link>https://xroot.org/posts/landscape-review/</link>
       <pubDate>Thu, 07 Oct 2021 16:49:17 +0100</pubDate>
@@ -118,37 +54,6 @@ When designing a solution to address connectivity to remote/edge computers obvio
       <guid>https://xroot.org/posts/landscape-review/</guid>
       <description>For the past 2 years I’ve relied on Canonical Landscape extensively. In this post I’ll summarize my experience with the platform as well as share some important lessons I learned for anyone running mission-critical applications in which Landscape plays a part of the workflow.
 For anyone that isn’t familiar with the software, Landscape is Canonical’s SaaS offer to maintain a fleet of Ubuntu servers. From keeping track of USNs, package and user status, to performance and overall maintenance of the servers.</description>
-    </item>
-    
-    <item>
-      <title>Movie Recommendation 📹 Solace</title>
-      <link>https://xroot.org/posts/movie-solace/</link>
-      <pubDate>Sun, 26 Sep 2021 22:06:17 +0100</pubDate>
-      
-      <guid>https://xroot.org/posts/movie-solace/</guid>
-      <description>Solace
-  </description>
-    </item>
-    
-    <item>
-      <title>Movie Recommendation 📹 The Report</title>
-      <link>https://xroot.org/posts/movie-the-report/</link>
-      <pubDate>Sat, 25 Sep 2021 22:55:17 +0100</pubDate>
-      
-      <guid>https://xroot.org/posts/movie-the-report/</guid>
-      <description>The Report - 2019
-  </description>
-    </item>
-    
-    <item>
-      <title>Social Networks 🚫 Tools &amp; Productivity ✅</title>
-      <link>https://xroot.org/posts/life-after-socials/</link>
-      <pubDate>Sat, 28 Aug 2021 13:33:12 +0100</pubDate>
-      
-      <guid>https://xroot.org/posts/life-after-socials/</guid>
-      <description>Recently I decided it was time to not only take a break but instead fully departure social networks. This is a process that started years ago when I first got rid of other social media services, even though it was only completed when the last standing social network profile came to an end:
-The time has come for my last social network presence (Twitter) to come to an end.
-Stay safe out there and feel free to reach out to me at tiago @3CORESec ✉️</description>
     </item>
     
     <item>

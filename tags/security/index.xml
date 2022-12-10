@@ -6,17 +6,7 @@
     <description>Recent content in security on Tiago&#39;s 🏡</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 05 Jan 2022 22:40:17 +0100</lastBuildDate><atom:link href="https://xroot.org/tags/security/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>If you&#39;re a SaaS provider charging a premium for SAML/SSO ...</title>
-      <link>https://xroot.org/posts/idiot-saas-saml/</link>
-      <pubDate>Wed, 05 Jan 2022 22:40:17 +0100</pubDate>
-      
-      <guid>https://xroot.org/posts/idiot-saas-saml/</guid>
-      <description>Fuck off!
-Putting authentication options at the highest possible plan is just an idiot move, no other way around it.</description>
-    </item>
-    
+    <lastBuildDate>Sat, 30 Oct 2021 22:59:17 +0100</lastBuildDate><atom:link href="https://xroot.org/tags/security/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tailscale - VPN done RIGHT!</title>
       <link>https://xroot.org/posts/tailscale/</link>
