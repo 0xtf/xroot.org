@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>data on Tiago&#39;s 🏡</title>
+    <link>https://xroot.org/tags/data/</link>
+    <description>Recent content in data on Tiago&#39;s 🏡</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 Jul 2022 22:35:17 +0100</lastBuildDate><atom:link href="https://xroot.org/tags/data/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Elastic handles data ...</title>
+      <link>https://xroot.org/posts/elastic-updates/</link>
+      <pubDate>Tue, 12 Jul 2022 22:35:17 +0100</pubDate>
+      
+      <guid>https://xroot.org/posts/elastic-updates/</guid>
+      <description>Someone once told me that one of the biggest problems with Elastic, and Elasticsearch, is how they frequently &amp;ldquo;handle data as if it was software&amp;rdquo;, regarding updates and releases.
+ Something like this, apparently so non-intrusive (and especially within a minor release), was all it took to bring an entire workflow down.
+I&amp;rsquo;ve learned to move away from Elasticsearch for anything that is mission-critical, but I keep running into changes that make me question if people are just sitting on old versions of the software terrified of the idea of updating.</description>
+    </item>
+    
+  </channel>
+</rss>
