@@ -16,7 +16,7 @@ From its inception to today, 3CORESec has had a significant growth in terms of r
 {{< figure src="https://raw.githubusercontent.com/3CORESec/Trapdoor/master/imgs/logo/trapdoor-small.png" >}}
 *Logo of [Trapdoor](https://github.com/3CORESec/Trapdoor), our HTTP honeypot*
 
-Through our [research](blog.3coresec.com/) and [contributions](https://github.com/3CORESec) we are continuously providing insightful information to defenders. With so many invested in offensive security tooling *(OST)* we feel like this is something that should help balance things out. 
+Through our [research](https://blog.3coresec.com/) and [contributions](https://github.com/3CORESec) we are continuously providing insightful information to defenders. With so many invested in offensive security tooling *(OST)* we feel like this is something that should help balance things out. 
 
 3CORESec today has a wide-range of products and services, all within the many areas of detecting adversarial activity. 
 
