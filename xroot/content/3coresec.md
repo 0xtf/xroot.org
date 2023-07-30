@@ -3,7 +3,7 @@ title: "3CORESec"
 style: page
 ---
 
-{{< figure src="https://3coresec.com/assets/imgs/mediakit/banner-1000.png" >}}
+{{< figure src="/img/3cs-banner.png" >}}
 
 3CORESec, which got its name from the "**t**hree cores" that go into our business goals *(truth, trust & transparency)* is a boutique information security company dedicated to creating managed detection security platforms, products and services.
 
@@ -19,9 +19,6 @@ From its inception to today, 3CORESec has had a significant growth in terms of r
 Through our [research](https://blog.3coresec.com/) and [contributions](https://github.com/3CORESec) we are continuously providing insightful information to defenders. With so many invested in offensive security tooling *(OST)* we feel like this is something that should help balance things out. 
 
 3CORESec today has a wide-range of products and services, all within the many areas of detecting adversarial activity. 
-
-{{< figure src="https://lawmaker.cloud/lawmaker-logo.png" >}}
-*lawmaker.cloud mascot*
 
 As the first, and so far the only of its kind, we released [Lawmaker](https://lawmaker.cloud) *(SaaS platform to manage NIDS sensor deployments)* back in August 2020. On top of its unique *(for these tools)* distribution method *(SaaS)*, the platform also comes packed with cool features such as its multi-tenancy model, unlimited scalability, RBAC and advanced alerting capabilities. Lawmaker is a perfect showcase of what we want to accomplish in infosec: break the status quo and provide accessible tooling with a proven track record that, just works™.
 
