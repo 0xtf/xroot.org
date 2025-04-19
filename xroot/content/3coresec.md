@@ -34,5 +34,3 @@ From our detection engineering that is meticulously developed against the most a
 Our open-source software is used daily by many organizations and sometimes even referenced in vendor documentation, such as [AutoMirror](https://github.com/3CORESec/AWS-AutoMirror) in this [aws.amazon.com](https://aws.amazon.com/blogs/networking-and-content-delivery/using-vpc-traffic-mirroring-to-monitor-and-secure-your-aws-infrastructure/) blog post.
 
 We're thankful for all our clients and partners that support and trust us every day to make systems and networks around the world safer. It is because of this support that we'll continue pushing the boundaries of what is possible for the 99%.
-
-If you'd like to have a virtual ☕ with us or discuss what we're doing, we have a [Community Slack](https://launchpass.com/3coresec) you can join. Come say hi!
